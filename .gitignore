@@ -1,0 +1,8 @@
+# Ignore backup files from text editors
+# usually endend with ~
+*~
+
+# Ignore NetBeans project files and directories
+nbproject/
+test/
+config/
