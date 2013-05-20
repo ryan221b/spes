@@ -1,0 +1,99 @@
+/* Generall style for the whole app */
+
+div {
+    width: 80%;
+    margin: 2em;
+    padding: 1em;
+}
+
+input {
+    border: 1px solid darkorange;
+    border-radius: 3px;
+}
+
+/* Clases for the heading */
+
+div.ctntHead { 
+    display: block;
+    text-align: center;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+h1.ctntHead, dfn.ctntHead {
+    font-family: "Lucida Console", Monaco, monospace;
+    color: Darkorange;
+}
+h1.ctntHead {
+    font-size: 3.2em;
+}
+dfn.ctntHead {
+    font-size: 1.2em;
+}
+
+
+
+/* Classes for the Query and Result divs */
+div.ctntQuery, div.ctntResult {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+div.ctntResult {
+    display: none;
+}
+
+div.ctntSubmit {
+    text-align: center;
+ /*   padding: 0.2em;
+ /*   height: 25px;*/
+}
+
+button {
+    padding: 0.2em 3em;
+    background: orangered;
+    border: 1px solid black;
+    border-radius: 2px;
+    color: black;
+}
+
+
+/* Clases for labels and spans */
+.fLeft {
+    float: left;
+}
+
+.fRight {
+    float: right;
+}
+
+.cent {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    width: auto;
+}
+
+.ctntLabel {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-weight: bold;
+    padding: 0.6em;
+}
+
+.resData {
+    font-style: italic;
+}
+
+.ctntUnit {
+    font-size: 0.8em;
+}
+
+a {
+    text-decoration: none;
+    color: #0078a3;
+}
+a:visited {
+    color: #0078a3;
+}
+a:hover {
+    text-decoration: underline;
+}

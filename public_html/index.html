@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SPES</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link href="css/ui-dark/jquery-ui-1.10.3.custom.css" rel="stylesheet" />
+        <link href="css/style.css" rel="stylesheet" />
+	<script src="js/jquery-1.9.1.js"></script>
+	<script src="js/jquery-ui-1.10.3.custom.js"></script>
+        <script src="js/data.js"></script>
+        <script src="js/app.js"></script>
+    </head>
+    <body>
+        <div class="ctntApp">
+            
+        <div class="ctntHead">
+            <header>
+                <h1 class="ctntHead">SPES</h1>
+                <dfn class="ctntHead">Subatomic Particle Expert System</dfn>
+            </header>
+        </div>
+            
+        <div class="ctntQuery">
+            <table class="fLeft">
+                <tr>
+                    <td class="ctntLabel">Mass</td>
+                    <td><input id="mass" /></td>
+                    <td class="ctntUnit">MassGeV/c<sup>2</sup></td>
+                </tr>
+                <tr>
+                    <td class="ctntLabel">Spin</td>
+                    <td><input id="spin" /></td>
+                    <td class="ctntUnit">&#295;</td>
+                </tr>
+            </table>
+            <table>
+            <tr>
+                    <td class="ctntLabel">Charge</td>
+                    <td><input id="charge" /></td>
+                    <td class="ctntUnit">C</td>
+                </tr>
+                <tr>
+                    <td class="ctntLabel">Family</td>
+                    <td><input id="family" /></td>
+                </tr>                
+            </table>
+        </div>
+            
+        <div class="ctntSubmit">
+            <button id="appSubmit">Query</button>
+            <img id="appWait" src="img/wait.gif" title="Processing" />
+        </div>
+            
+         
+        <div class="ctntResult">
+            
+            <table id="appResult" class="fLeft">
+                <tr id="resName">
+                    <td class="ctntLabel">Name<td/>
+                    <td class="resData"></td>
+                </tr>
+                <tr id="resMass">
+                    <td class="ctntLabel">Mass<td/>
+                    <td class="resData"></td>
+                    <td class="ctntUnit">MassGeV/c<sup>2</sup></td>
+                </tr>
+                </tr>
+                <tr id="resSpin">
+                    <td class="ctntLabel">Spin<td/>
+                    <td class="resData"></td>
+                    <td class="ctntUnit">&#295;</td>
+                </tr>
+                <tfoot class="cent"><a href="http://www.cpepweb.org/cpep_sm_large.html" target="_blank">Information extracted from CPEP</a></tfoot>
+            </table>
+            <table id="appResult">
+                <tr id="resFamily">
+                    <td class="ctntLabel">Family<td/>
+                    <td class="resData"></td>
+                </tr>
+                <tr id="resCharge">
+                    <td class="ctntLabel">Charge<td/>
+                    <td class="resData"></td>
+                    <td class="ctntUnit">C</td>
+                </tr>                
+            </table>
+        </div>
+            
+        </div>
+        
+    </body>
+</html>
