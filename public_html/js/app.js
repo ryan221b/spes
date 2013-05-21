@@ -35,11 +35,11 @@ function onQuery() {
         
         var res = knoledgeBase(fMass, fCharge, fSpin, fFamily);
         
-        $("#resName").find(".resData").text(res[0].name);
-        $("#resMass").find(".resData").text(res[0].mass);
-        $("#resCharge").find(".resData").text(res[0].charge);
-        $("#resSpin").find(".resData").text(res[0].spin);
-        $("#resFamily").find(".resData").text(res[0].family);
+        $("#resName").text(res[0].name);
+        $("#resMass").text(res[0].mass);
+        $("#resCharge").text(res[0].charge);
+        $("#resSpin").text(res[0].spin);
+        $("#resFamily").text(res[0].family);
         
         // stopProgress
         wait.hide("fast");

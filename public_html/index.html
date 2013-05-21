@@ -23,33 +23,31 @@
             
         <div class="ctntQuery gen">
             
-            <!-- Add divs to hold 'Label:Field' pairs --> 
-            
             <div class="fLeft">
-            <div>
-                <label class="form" for="mass">Mass</label>
-                <input class="form" id="mass" />
-                <label class="unit">GeV/c</label>
-            </div>
+                <div>
+                    <label class="form">Mass</label>
+                    <input class="form" id="mass" />
+                    <label class="unit">GeV/c</label>
+                </div>
             
-            <div>
-                <label class="form">Charge</label>
-                <input class="form" id="charge" />
-                <label class="unit">C</label>
-            </div>
+                <div>
+                    <label class="form">Charge</label>
+                    <input class="form" id="charge" />
+                    <label class="unit">C</label>
+                </div>
             </div>
             
             <div class="fLeft">
-            <div>
-                <label class="form">Spin</label>
-                <input class="form" id="spin" />
-                <label class="unit">&#295;</label>
-            </div>
+                <div>
+                    <label class="form">Spin</label>
+                    <input class="form" id="spin" />
+                    <label class="unit">&#295;</label>
+                </div>
             
-            <div>
-                <label class="form">Family</label>
-                <input class="form" id="family" />
-            </div>
+                <div>
+                    <label class="form">Family</label>
+                    <input class="form" id="family" />
+                </div>
             </div>
             
         </div>
@@ -62,36 +60,44 @@
          
         <div class="ctntResult gen">
             
-            <table id="appResult" class="fLeft">
-                <tr id="resName">
-                    <td class="ctntLabel">Name<td/>
-                    <td class="resData"></td>
-                </tr>
-                <tr id="resMass">
-                    <td class="ctntLabel">Mass<td/>
-                    <td class="resData"></td>
-                    <td class="ctntUnit">MassGeV/c<sup>2</sup></td>
-                </tr>
-                </tr>
-                <tr id="resSpin">
-                    <td class="ctntLabel">Spin<td/>
-                    <td class="resData"></td>
-                    <td class="ctntUnit">&#295;</td>
-                </tr>
-                <tfoot class="cent"><a href="http://www.cpepweb.org/cpep_sm_large.html" target="_blank">Information extracted from CPEP</a></tfoot>
-            </table>
-            <table id="appResult">
-                <tr id="resFamily">
-                    <td class="ctntLabel">Family<td/>
-                    <td class="resData"></td>
-                </tr>
-                <tr id="resCharge">
-                    <td class="ctntLabel">Charge<td/>
-                    <td class="resData"></td>
-                    <td class="ctntUnit">C</td>
-                </tr>                
-            </table>
+            <div class="fLeft">
+                <div>
+                    <label class="form">Name</label>
+                    <label class="result" id="resName"></label>
+                </div>
+                
+                <div>
+                    <label class="form">Mass</label>
+                    <label class="result" id="resMass"></label>
+                    <label class="unit">GeV/c</label>
+                </div>
+                            
+                <div>
+                    <label class="form">Charge</label>
+                    <label class="result" id="resCharge"></label>
+                    <label class="unit">C</label>
+                </div>
+            </div>
+            
+            <div class="fLeft">
+                <div>
+                    <label class="form">Family</label>
+                    <label class="result" id="resFamily"></label>
+                </div>
+                
+                <div>
+                    <label class="form">Spin</label>
+                    <label class="result" id="resSpin"></label>
+                    <label class="unit">&#295;</label>
+                </div>            
+            </div>
+            
         </div>
+            
+            <div id="links">
+                <a class="fLeft" href="http://www.cpepweb.org/cpep_sm_large.html" target="_blank">Information extracted from CPEP</a>
+                <a class="fRight" href="http://github.com/ryan221b/spes" target="_blank">Source code available at GitHub</a>
+            </div>
             
         </div>
         
