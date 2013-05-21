@@ -1,6 +1,6 @@
 /* Generall style for the whole app */
 
-div {
+div.gen {
     width: 80%;
     margin: 2em;
     padding: 1em;
@@ -38,14 +38,18 @@ div.ctntQuery, div.ctntResult {
     border-radius: 5px;
 }
 
+div.ctntQuery {
+    height: 5em;
+}
+
 div.ctntResult {
     display: none;
 }
 
 div.ctntSubmit {
     text-align: center;
- /*   padding: 0.2em;
- /*   height: 25px;*/
+    padding: 0.2em;
+    height: 25px;
 }
 
 button {
@@ -73,18 +77,32 @@ button {
     width: auto;
 }
 
-.ctntLabel {
+.form {
+    float: left;
+    width: 5em;
+}
+
+input.form {
+    width: 12em;
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+}
+
+label.form {
+    clear: left;
     font-family: Tahoma, Geneva, sans-serif;
     font-weight: bold;
     padding: 0.6em;
+    margin-left: 2em;
 }
 
-.resData {
-    font-style: italic;
-}
-
-.ctntUnit {
+label.unit {
     font-size: 0.8em;
+    font-weight: normal;
+    width: 1em;
+    padding: 0.6em;
+    float: right;
+    margin-top: 0.4em;
 }
 
 a {

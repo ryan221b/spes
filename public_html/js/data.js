@@ -147,21 +147,21 @@ var particles_db = [
 	family: "Electroweak Bosons"
     },
     {   // 13
-	name: "W<sup>-</sup> Bosson",
+	name: "W⁻ Bosson",
 	mass: "80.39",
 	charge: "-1",
 	spin: "1",
 	family: "Electroweak Bosons"
     },
     {   // 14
-	name: "W<sup>+</sup> Bosson",
+	name: "W⁺ Bosson",
 	mass: "80.39",
 	charge: "1",
 	spin: "1",
 	family: "Electroweak Bosons"
     },
     {   // 15
-	name: "Z<sup>0</sup> Bosson",
+	name: "Z⁰ Bosson",
 	mass: "91.188",
 	charge: "0",
 	spin: "1",
