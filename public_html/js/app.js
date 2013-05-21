@@ -11,8 +11,14 @@ $(document).ready(function() {
     $("#family").autocomplete({source: atcm_family});
     
     // Configure button
-    $("#appSubmit").click(function() {
-        var button = $(this);
+    $("#appSubmit").click(onQuery);
+});
+
+
+// Implememtn event handlers
+
+function onQuery() {
+    var button = $(this);
         var wait = $("#appWait");
         var results = $(".ctntResult");
         
@@ -22,6 +28,18 @@ $(document).ready(function() {
         wait.show("fast");
         
         // Do querys
+        var fMass = $("#mass").val();
+        var fCharge = $("#charge").val();
+        var fSpin = $("#spin").val();
+        var fFamily = $("#family").val();
+        
+        var res = knoledgeBase(fMass, fCharge, fSpin, fFamily);
+        
+        $("#resName").find(".resData").text(res[0].name);
+        $("#resMass").find(".resData").text(res[0].mass);
+        $("#resCharge").find(".resData").text(res[0].charge);
+        $("#resSpin").find(".resData").text(res[0].spin);
+        $("#resFamily").find(".resData").text(res[0].family);
         
         // stopProgress
         wait.hide("fast");
@@ -29,6 +47,4 @@ $(document).ready(function() {
         
        // Show results
        results.show("fast");
-        
-    });
-});
+}

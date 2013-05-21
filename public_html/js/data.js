@@ -50,107 +50,130 @@ var atcm_family = [
  */
  
 var particles_db = [
-	// Leptons
-	{
-		name: "Lightest Neutrino",
-		mass: "(0-0.13)e-9",
-		charge: 0,
-		spin: "1/2",
-		family: "Leptons",
-	},
-	{
-		name: "Electron",
-		mass: 5.11e-4,
-		charge: -1,
-		spin: "1/2",
-		family: "Leptons"
-	},
-	{
-		name: "Middle Neutrino",
-		mass: "(0.009-0.13)e-9",
-		charge: 0,
-		spin: "1/2",
-		family: "Leptons"
-	},
-	{
-		name: "Muon",
-		mass: 0.106,
-		charge: -1,
-		spin: "1/2",
-		family: "Leptons"
-	},
-	{
-		name: "Heaviest Neutrino",
-		mass: "(0.04-0.14)e-9",
-		charge: 0,
-		spin: "1/2",
-		family: "Leptons"
-	},
-	{
-		name: "Tau",
-		mass: 1.777,
-		charge: -1,
-		spin: "1/2",
-		family: "Leptons"
-	},
-	
+    // Leptons
+    {   // 0
+	name: "Lightest Neutrino",
+	mass: "(0-0.13)e-9",
+	charge: "0",
+	spin: "1/2",
+	family: "Leptons",
+    },
+    {   // 1
+	name: "Electron",
+	mass: "5.11e-4",
+	charge: "-1",
+	spin: "1/2",
+	family: "Leptons"
+    },
+    {   // 2
+	name: "Middle Neutrino",
+	mass: "(0.009-0.13)e-9",
+	charge: "0",
+	spin: "1/2",
+	family: "Leptons"
+    },
+    {   // 3
+        name: "Muon",
+	mass: "0.106",
+	charge: -1,
+	spin: "1/2",
+	family: "Leptons"
+    },
+    {   // 4
+	name: "Heaviest Neutrino",
+	mass: "(0.04-0.14)e-9",
+	charge: "0",
+	spin: "1/2",
+	family: "Leptons"
+    },
+    {   // 5
+	name: "Tau",
+	mass: "1.777",
+	charge: "-1",
+	spin: "1/2",
+	family: "Leptons"
+    },
+
 	// Quarks
-	{
-		name: "Up Quark",
-		mass: 0.002,
-		charge: "2/3",
-		spin: "1/2",
-		family: "Quarks"
-	},
-	{
-		name: "Down Quark",
-		mass: 0.005,
-		charge: "-1/3",
-		spin: "1/2",
-		family: "Quarks"
-	},
-	{
-		name: "Charm Quark",
-		mass: 1.3,
-		charge: "2/3",
-		spin: "1/2",
-		family: "Quarks"
-	},
-	{
-		name: "Stange Quark",
-		mass: 0.1,
-		charge: "-1/3",
-		spin: "1/2",
-		family: "Quarks"
-	},
-	{
-		name: "Top Quark",
-		mass: 173,
-		charge: "2/3",
-		spin: "1/2",
-		family: "Quarks"
-	},
-	{
-		name: "Bottom Quark",
-		mass: 4.2,
-		charge: "-1/3",
-		spin: "1/2",
-		family: "Quarks"
-	},
+    {   // 6
+	name: "Up Quark",
+	mass: "0.002",
+	charge: "2/3",
+	spin: "1/2",
+	family: "Quarks"
+    },
+    {   // 7
+	name: "Down Quark",
+	mass: "0.005",
+	charge: "-1/3",
+	spin: "1/2",
+	family: "Quarks"
+    },
+    {   // 8
+	name: "Charm Quark",
+	mass: "1.3",
+	charge: "2/3",
+	spin: "1/2",
+	family: "Quarks"
+    },
+    {   // 9
+	name: "Stange Quark",
+	mass: "0.1",
+	charge: "-1/3",
+	spin: "1/2",
+	family: "Quarks"
+    },
+    {   // 10
+	name: "Top Quark",
+	mass: "173",
+	charge: "2/3",
+	spin: "1/2",
+	family: "Quarks"
+    },
+    {   // 11
+	name: "Bottom Quark",
+	mass: "4.2",
+	charge: "-1/3",
+	spin: "1/2",
+	family: "Quarks"
+    },
 	
 	// U-EW Bossons
-	{
-		name: "Photon",
-		mass: 0,
-		charge: "0",
-		spin: "1",
-		family: "Electroweak Bosons"
-	},
-	{
-		name: "Photon",
-		mass: 0,
-		charge: "0",
-		spin: "1",
-		family: "Electroweak Bosons"
-	}
+    {   // 12
+	name: "Photon",
+	mass: "0",
+	charge: "0",
+	spin: "1",
+	family: "Electroweak Bosons"
+    },
+    {   // 13
+	name: "W<sup>-</sup> Bosson",
+	mass: "80.39",
+	charge: "-1",
+	spin: "1",
+	family: "Electroweak Bosons"
+    },
+    {   // 14
+	name: "W<sup>+</sup> Bosson",
+	mass: "80.39",
+	charge: "1",
+	spin: "1",
+	family: "Electroweak Bosons"
+    },
+    {   // 15
+	name: "Z<sup>0</sup> Bosson",
+	mass: "91.188",
+	charge: "0",
+	spin: "1",
+	family: "Electroweak Bosons"
+    },
+    
+    // Strong Bossons
+    {   // 16
+	name: "Gluon",
+	mass: "0",
+	charge: "0",
+	spin: "1",
+	family: "Strong Bosons"
+    },
 ];
