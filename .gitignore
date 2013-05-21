@@ -1,5 +1,5 @@
 # Ignore backup files from text editors
-# usually endend with ~
+# usually ended with ~
 *~
 
 # Ignore NetBeans project files and directories
