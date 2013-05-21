@@ -6,3 +6,6 @@
 nbproject/
 test/
 config/
+
+# Ignore manifest file for now
+public_html/manifest.webapp

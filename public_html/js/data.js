@@ -4,9 +4,9 @@
 
 // Mass
 var atcm_mass = [
-  "-1.3e-10",
-  "-1.21e-10",
-  "-1e-9",
+  "(0-0.13)e-9",
+  "(0.009-0.13)e-9",
+  "(0.04-0.14)e-9",
   "5.11e-4",
   "0",
   "0.002",
@@ -52,8 +52,8 @@ var atcm_family = [
 var particles_db = [
 	// Leptons
 	{
-		name: "Lightest neutrino",
-		mass: -1.3e-10,
+		name: "Lightest Neutrino",
+		mass: "(0-0.13)e-9",
 		charge: 0,
 		spin: "1/2",
 		family: "Leptons",
@@ -67,7 +67,7 @@ var particles_db = [
 	},
 	{
 		name: "Middle Neutrino",
-		mass: -1.21e-10,
+		mass: "(0.009-0.13)e-9",
 		charge: 0,
 		spin: "1/2",
 		family: "Leptons"
@@ -81,7 +81,7 @@ var particles_db = [
 	},
 	{
 		name: "Heaviest Neutrino",
-		mass: -1e-10,
+		mass: "(0.04-0.14)e-9",
 		charge: 0,
 		spin: "1/2",
 		family: "Leptons"
